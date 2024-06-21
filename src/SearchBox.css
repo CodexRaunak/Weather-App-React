@@ -1,0 +1,44 @@
+.SearchBox {
+  text-align: center;
+}
+
+.img-container {
+  position: relative;
+  height: 20vh;
+  width: 20vw;
+}
+.sun,
+.cloud {
+  position: absolute;
+  top: 0;
+  left: 35px;
+}
+
+.sun {
+  top: 19px;
+  left: 78px;
+  z-index: -1;
+}
+
+.SearchBox #city {
+  background: transparent;
+  border-radius: 20px;
+  padding: 12px 20px;
+  border: 1px solid white;
+  outline: none;
+  color: white;
+}
+.SearchBox #city::placeholder {
+  color: white;
+}
+
+.btn-search {
+  border-radius: 50%;
+  padding: 12px;
+  outline: none;
+  border: 1px solid white;
+  background: transparent;
+  cursor: pointer;
+  color: #fff;
+  margin-left: 0.7rem;
+}

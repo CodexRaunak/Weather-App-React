@@ -1,0 +1,9 @@
+body {
+  background: linear-gradient(
+    to right,
+    #47b7e4,
+    rgba(153, 192, 207, 0.384) 0%,
+    #47b7e4 50%
+  );
+  overflow: hidden;
+}

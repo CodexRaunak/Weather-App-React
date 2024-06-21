@@ -1,0 +1,82 @@
+.InfoBox {
+  text-align: center;
+}
+.card-container {
+  display: flex;
+  justify-content: center;
+}
+
+.info {
+  margin-top: 10px;
+}
+.card {
+  position: relative;
+  border-radius: 1.5rem !important;
+  background-color: #80c2f4 !important;
+}
+.date {
+  font-size: 19px;
+}
+.info {
+  font-size: 20px;
+}
+
+.temp {
+  font-family: "Inter", "sans-serif";
+  font-size: 4rem;
+  font-weight: 400;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 2fr);
+  grid-template-rows: repeat(2, 1fr);
+  height: 12vh;
+  margin-top: 10px;
+}
+
+.city {
+  margin: 0;
+}
+
+.move-cloud {
+  position: absolute;
+  top: 9rem;
+  left: 5rem;
+  animation: moveClouds 20s linear infinite alternate;
+}
+.move-cloud-2 {
+  position: absolute;
+  top: 9rem;
+  right: 10rem;
+  animation: moveClouds 10s linear infinite alternate;
+}
+
+.move-snow {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  animation: moveSnow 20s linear infinite;
+}
+
+@keyframes moveSnow {
+  0% {
+    transform: translateY(-30px);
+  }
+
+  100% {
+    transform: translateY(200px);
+  }
+}
+
+@keyframes moveClouds {
+  0% {
+    transform: translateX(-30px);
+  }
+  50% {
+    transform: translateX(30px);
+  }
+  100% {
+    transform: translateX(-30px);
+  }
+}
