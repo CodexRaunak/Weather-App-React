@@ -24,8 +24,8 @@ This is a mini React project that fetches and displays weather data using the Op
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/Weather-App-React-.git
-   cd Weather-App-React-
+   git clone https://github.com/yourusername/Weather-App-React.git
+   cd Weather-App-React
    ```
 
 2. Install the dependencies:
